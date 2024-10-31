@@ -56,7 +56,7 @@ def predict_response(user_input):
 
 
 # تنظیمات اولیه Streamlit
-st.title("چت‌بات هوشمند - مکالمه پیوسته")
+st.title("هولوسن")
 
 # آموزش مدل اگر اولین بار است که اجرا می‌شود
 if "trained" not in st.session_state:
