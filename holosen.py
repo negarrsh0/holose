@@ -22,7 +22,7 @@ from sklearn.naive_bayes import MultinomialNB
 # تابع برای بارگذاری داده‌ها از فایل CSV
 def load_chat_data_from_csv():
     chat_data = {}
-    with open("C:/Users/Arghavan Computer/Desktop/teststrim/pythonProject/holosenstream/holosenex.csv", "r", encoding="utf-8") as file:
+    with open("holosenex.csv", "r", encoding="utf-8") as file:
         reader = csv.reader(file)
         for row in reader:
             chat_data[row[0]] = row[1]
