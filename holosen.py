@@ -1,16 +1,12 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import seaborn as sns
 from PIL import Image
 from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import PCA
 from sklearn import datasets
 from sklearn.metrics import accuracy_score,confusion_matrix, classification_report
-
-import streamlit as st
 import csv
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
